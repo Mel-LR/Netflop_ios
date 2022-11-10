@@ -786,7 +786,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="color" keyPath="contentField.textColor">
+                                        <userDefinedRuntimeAttribute type="color" keyPath="tabItem.textColor">
                                             <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>

@@ -63,6 +63,7 @@ class SearchTableViewController: UITableViewController, UISearchBarDelegate{
             let cell = tableView.dequeueReusableCell(withIdentifier: "searchTableIdentifer")! as UITableViewCell
             
             cell.textLabel?.text = filteredSearch[indexPath.row].title
+            cell.textLabel?.textColor = UIColor.white
             
     //        print("section : \(indexPath.section) - row : \(indexPath.row)")
     //
