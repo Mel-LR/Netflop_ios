@@ -2,7 +2,7 @@
 //  FilmViewController.swift
 //  Ios_Project
 //
-//  Created by Yanis on 28/04/2022.
+//  Created by Jade BOUIGES on 08/11/2022.
 //
 
 import UIKit
@@ -19,6 +19,10 @@ class FilmViewController: UIViewController {
     @IBOutlet weak var movieDescriptionLabel: UILabel!
     @IBOutlet weak var movieStudioLabel: UILabel!
     @IBOutlet weak var movieReleaseLabel: UILabel!
+    @IBOutlet weak var movieCloseModalButton: UIButton!
+    @IBAction func closeModal(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
     @IBAction func movieTrailerActionButton(_ sender: UIButton) {
         if let url = URL(string: "https://file-examples.com/storage/fe8c7eef0c6364f6c9504cc/2017/04/file_example_MP4_480_1_5MG.mp4") {
                     let player = AVPlayer(url: url)
@@ -61,7 +65,7 @@ class FilmViewController: UIViewController {
         setImage(from: movie!.image)
         
         for _ in 1...movie!.rate{
-            rating += "⭐️"
+            rating += "👎"
         }
         movieTitleLabel.text = movie?.title
         movieGenresLabel.text = movie!.genre + " - " + rating + " - " + movie!.duration

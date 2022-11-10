@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Ios_Project
 //
-//  Created by Mélyne LERAY on 26/04/2022.
+//  Created by Kévin DOBROTA on 08/11/2022.
 //
 
 import UIKit
@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func connectButton(_ sender: Any) {
-        if nameTextField.text == "ok" && passwordTextField.text == "ok" {
+        if nameTextField.text == "Andy" && passwordTextField.text == "Andy" {
             print("OK ok")
             
             if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "home") as? HomeViewController {

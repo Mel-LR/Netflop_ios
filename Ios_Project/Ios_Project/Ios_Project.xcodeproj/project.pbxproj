@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		09C4A5E1281A998C00BDF494 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C4A5E0281A998C00BDF494 /* FilmViewController.swift */; };
 		09C4A5E3281AB29E00BDF494 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C4A5E2281AB29E00BDF494 /* WebviewViewController.swift */; };
-		84746799281A87290048AC2F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84746798281A87290048AC2F /* SettingsViewController.swift */; };
 		E709CA87281A814400E52B40 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709CA86281A814400E52B40 /* SearchTableViewController.swift */; };
+		E78B5CDD291D092800C85C2C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B5CDC291D092800C85C2C /* AboutViewController.swift */; };
 		E7D04D56281B2D61002AC417 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D04D55281B2D61002AC417 /* MainTabBarViewController.swift */; };
 		E7DAF58F281823B500DA29C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DAF58E281823B500DA29C7 /* AppDelegate.swift */; };
 		E7DAF591281823B500DA29C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DAF590281823B500DA29C7 /* SceneDelegate.swift */; };
@@ -28,8 +28,8 @@
 /* Begin PBXFileReference section */
 		09C4A5E0281A998C00BDF494 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
 		09C4A5E2281AB29E00BDF494 /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
-		84746798281A87290048AC2F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E709CA86281A814400E52B40 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		E78B5CDC291D092800C85C2C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E7D04D55281B2D61002AC417 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		E7DAF58B281823B500DA29C7 /* Ios_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ios_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DAF58E281823B500DA29C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				09C4A5E0281A998C00BDF494 /* FilmViewController.swift */,
 				09C4A5E2281AB29E00BDF494 /* WebviewViewController.swift */,
 				E709CA86281A814400E52B40 /* SearchTableViewController.swift */,
-				84746798281A87290048AC2F /* SettingsViewController.swift */,
+				E78B5CDC291D092800C85C2C /* AboutViewController.swift */,
 				E7D04D55281B2D61002AC417 /* MainTabBarViewController.swift */,
 				E7DAF5B0281991A900DA29C7 /* Movie.swift */,
 				E7DAF594281823B600DA29C7 /* Main.storyboard */,
@@ -178,9 +178,9 @@
 				E7D04D56281B2D61002AC417 /* MainTabBarViewController.swift in Sources */,
 				E7DAF5AF2819293D00DA29C7 /* GenresTableViewController.swift in Sources */,
 				E7DAF5B1281991A900DA29C7 /* Movie.swift in Sources */,
+				E78B5CDD291D092800C85C2C /* AboutViewController.swift in Sources */,
 				09C4A5E1281A998C00BDF494 /* FilmViewController.swift in Sources */,
 				E7DAF5A32818375D00DA29C7 /* HomeViewController.swift in Sources */,
-				84746799281A87290048AC2F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +323,7 @@
 		E7DAF5A0281823B900DA29C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,7 +352,7 @@
 		E7DAF5A1281823B900DA29C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;

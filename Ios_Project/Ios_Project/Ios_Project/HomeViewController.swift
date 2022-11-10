@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  Ios_Project
 //
-//  Created by Mélyne LERAY on 26/04/2022.
+//  Created by Maxime JOMAIN on 08/11/2022.
 //
 
 import UIKit
@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func settingsAction(_ sender: UIButton) {
-        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "settings") as? SettingsViewController {
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "about") as? AboutViewController{
             
             self.navigationController?.pushViewController(vc, animated: true)
         }
